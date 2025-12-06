@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="clac">
+    <div class="hed">
+        <input id="display" type="text" readonly>
+
+    </div>
+
+    <div class="buo">
+
+    <div id="keys" class="kol">
+        <div class="p" onclick="appendToDisplay('*')">
+            *
+        </div>
+
+        <div class="p" onclick="appendToDisplay('/')">
+            /
+        </div>
+
+        <div class="p" onclick="appendToDisplay('-')">
+            -
+        </div>
+
+        <div class="p" onclick="appendToDisplay('+')">
+            +
+        </div>
+    </div>
+
+
+       <div class="tol">
+        <div class="l" onclick="appendToDisplay('9')">
+            9
+        </div>
+
+        <div class="l" onclick="appendToDisplay('8')">
+            8
+        </div>
+
+        <div class="l" onclick="appendToDisplay('7')">
+            7
+        </div>
+
+        <div class="l" onclick="appendToDisplay('6')">
+            6
+        </div>
+    </div>
+
+
+
+       <div class="tol">
+        <div class="l" onclick="appendToDisplay('5')">
+            5
+        </div>
+
+        <div class="l" onclick="appendToDisplay('4')">
+            4
+        </div>
+
+        <div class="l" onclick="appendToDisplay('3')">
+            3
+        </div>
+
+        <div class="l" onclick="appendToDisplay('2')">
+            2
+        </div>
+    </div>
+
+
+       <div class="tol">
+        <div class="l" onclick="appendToDisplay('1')">
+            1
+        </div>
+
+        <div class="l" onclick="appendToDisplay('0')">
+            0
+        </div>
+
+        <div class="l" onclick="appendToDisplay('.')">
+            .
+        </div>
+
+        <div class="ko" onclick="calculateToDisplay('=')">
+            =
+        </div>
+    </div>
+
+
+    <div class="co" onclick="clearToDisplay('C')">C</div>
+
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

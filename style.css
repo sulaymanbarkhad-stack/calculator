@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clac{
+    width: 320px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+
+.hed{
+    width: 320px;
+    height: 150px;
+    background-color: #000000;
+    color: white;
+}
+input{
+width: 320px;
+    height: 155px;
+    background-color: #000000;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 5rem;
+    
+}
+
+.buo{
+       width: 360px;
+        height: 300px;
+         background-color: #212121;
+         margin-top: 40px;
+         }
+
+         .kol{
+            display: flex;
+            gap: 10px;
+            padding-top: 10px;
+            padding-left: 13px;
+         }
+
+
+
+.p{
+width: 40px;
+height: 40px;
+border-radius: 5px;
+border: none;
+color: white;
+background-color: #EF8E39;
+font-size: 30px;
+padding-left: 25px;
+padding-top: 5px;
+cursor: pointer;
+
+
+} 
+
+.p:active{
+    background-color: #19130e;
+    
+}
+
+.p:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+ .tol{
+            display: flex;
+            gap: 10px;
+            padding-top: 10px;
+            padding-left: 13px;
+         }
+
+         .l{
+width: 40px;
+height: 40px;
+border-radius: 5px;
+border: none;
+color: white;
+background-color:#DADADA;
+font-size: 30px;
+padding-left: 25px;
+padding-top: 5px;
+cursor: pointer;
+
+
+} 
+
+.l:active{
+    background-color: #19130e;
+    
+}
+
+.l:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+ .jol{
+            display: flex;
+            gap: 10px;
+            padding-top: 10px;
+            padding-left: 13px;
+         }
+
+       .m{
+width: 40px;
+height: 40px;
+border-radius: 5px;
+border: none;
+color: white;
+background-color:#DADADA;
+font-size: 30px;
+padding-left: 25px;
+padding-top: 5px;
+cursor: pointer;
+
+
+} 
+
+
+
+
+
+.ko{
+    width: 40px;
+height: 40px;
+border-radius: 5px;
+border: none;
+color: white;
+background-color:#007C01;
+font-size: 30px;
+padding-left: 25px;
+padding-top: 5px;
+cursor: pointer;
+
+}
+.ko:active{
+    background-color: #19130e;
+    
+}
+
+.ko:hover{
+    background-color: #5fb65f;
+    color: white;
+}
+
+.co{
+    width: 40px;
+height: 40px;
+border-radius: 5px;
+border: none;
+color: white;
+background-color:#EB000D;
+font-size: 30px;
+padding-left: 20px;
+padding-top: 10px;
+margin-top: 5px;
+margin-left: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+}
+
+.co:active{
+    background-color: #19130e;
+    
+}
+
+.co:hover{
+    background-color: #a63c41;
+    color: white;
+}
+
